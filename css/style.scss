@@ -212,6 +212,9 @@ $orange: #FF5545;
         text-align: center;
         font-size: 1.5rem;
     }
+    &__links {
+        color: rgba(0, 0, 0, 0.7);
+    }
 }
 
 .intro {
@@ -262,10 +265,14 @@ $orange: #FF5545;
         cursor: pointer;
         position: absolute;
         padding-bottom: 25px;
-
         right: 50%;
         bottom: 0;
-    }
+        transform: translateX("-50deg");
+        -webkit-transform: translateX("-50deg");
+        -moz-transform: translateX("-50deg");
+        -ms-transform: translateX("-50deg");
+        -o-transform: translateX("-50deg");
+}
 }
 
 .services {
@@ -938,7 +945,7 @@ $orange: #FF5545;
 }
 
 @media (max-width: 768px) {
-    html {font-size: 60%;}
+    html {font-size: 70%;}
 
     .header {
         &-wrapper {

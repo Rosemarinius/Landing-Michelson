@@ -265,6 +265,9 @@ input, button, textarea, select {
   text-align: center;
   font-size: 1.5rem;
 }
+.menu__links {
+  color: rgba(0, 0, 0, 0.7);
+}
 
 .intro {
   display: flex;
@@ -311,6 +314,11 @@ input, button, textarea, select {
   padding-bottom: 25px;
   right: 50%;
   bottom: 0;
+  transform: translateX("-50deg");
+  -webkit-transform: translateX("-50deg");
+  -moz-transform: translateX("-50deg");
+  -ms-transform: translateX("-50deg");
+  -o-transform: translateX("-50deg");
 }
 
 .services {
@@ -920,7 +928,7 @@ input, button, textarea, select {
 }
 @media (max-width: 768px) {
   html {
-    font-size: 60%;
+    font-size: 70%;
   }
   .header-wrapper {
     padding: 0px 20px;
