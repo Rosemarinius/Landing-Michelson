@@ -212,7 +212,7 @@ $orange: #FF5545;
         text-align: center;
         font-size: 1.5rem;
     }
-    &__links {
+    &__link {
         color: rgba(0, 0, 0, 0.7);
     }
 }
@@ -264,15 +264,15 @@ $orange: #FF5545;
     &-arrow {
         cursor: pointer;
         position: absolute;
-        padding-bottom: 25px;
+        margin-bottom: 25px;
         right: 50%;
         bottom: 0;
-        transform: translateX("-50deg");
-        -webkit-transform: translateX("-50deg");
-        -moz-transform: translateX("-50deg");
-        -ms-transform: translateX("-50deg");
-        -o-transform: translateX("-50deg");
-}
+        transform: translateX(20%);
+        -webkit-transform: translateX(20%);
+        -moz-transform: translateX(20%);
+        -ms-transform: translateX(20%);
+        -o-transform: translateX(20%);
+    }
 }
 
 .services {
