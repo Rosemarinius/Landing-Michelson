@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Stem';
+    src: url('Stem-Medium.eot');
+    src: local('Stem Medium'), local('Stem-Medium'),
+        url('Stem-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Stem-Medium.woff2') format('woff2'),
+        url('Stem-Medium.woff') format('woff'),
+        url('Stem-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stem';
+    src: url('Stem-Bold.eot');
+    src: local('Stem Bold'), local('Stem-Bold'),
+        url('Stem-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Stem-Bold.woff2') format('woff2'),
+        url('Stem-Bold.woff') format('woff'),
+        url('Stem-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stem';
+    src: url('Stem-SemiLight.eot');
+    src: local('Stem Semi Light'), local('Stem-SemiLight'),
+        url('Stem-SemiLight.eot?#iefix') format('embedded-opentype'),
+        url('Stem-SemiLight.woff2') format('woff2'),
+        url('Stem-SemiLight.woff') format('woff'),
+        url('Stem-SemiLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stem';
+    src: url('Stem-Regular.eot');
+    src: local('Stem Regular'), local('Stem-Regular'),
+        url('Stem-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Stem-Regular.woff2') format('woff2'),
+        url('Stem-Regular.woff') format('woff'),
+        url('Stem-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
